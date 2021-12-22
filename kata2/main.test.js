@@ -36,6 +36,11 @@ describe("Random tests", function () {
     expect(actual).toBe(expected);
   });
   test(`Random tests`, () => {
+    const actual = sumMinMaxArr([4, 5, 3, 2, 1]);
+    const expected = true;
+    expect(actual).toBe(expected);
+  });
+  test(`Random tests`, () => {
     const actual = sumMinMaxArr([10, -11, 3, 100, 54]);
     const expected = false;
     expect(actual).toBe(expected);
